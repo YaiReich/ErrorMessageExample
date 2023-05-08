@@ -1,0 +1,18 @@
+ Columns . . . :    6  76            Edit                    JBLTD101/QRPGLESRC 
+ SEU==>                                                                   ERREX 
+ FMT FX FFilename++IPEASF.....L.....A.Device+.Keywords+++++++++++++++++++++++++ 
+        *************** Beginning of data ************************************* 
+0001.00 FDSERREX   CF   E             WORKSTN                                   
+0002.00 C     FL1           DOWNE     50                                        
+0003.00 C                   EXFMT     SCN                                       
+0004.00 C                   SELECT                                              
+0005.00 C     FL1           WHENEQ    10                                        
+0006.00 C                   SETON                                        30     
+0007.00 C     FL1           WHENEQ    15                                        
+0008.00 C                   SETON                                        35     
+0009.00 C     FL1           WHENEQ    26                                        
+0010.00 C                   SETON                                        46     
+0011.00 C                   ENDSL                                               
+0012.00 C                   ENDDO                                               
+0013.00 C                   SETON                                        LR     
+        ****************** End of data **************************************** 
