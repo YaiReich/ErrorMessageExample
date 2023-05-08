@@ -1,0 +1,16 @@
+ Columns . . . :    1  71           Browse                      JBLTD11/QDDSSRC 
+ SEU==>                                                                     AAA 
+ FMT A* .....A*. 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7  
+        *************** Beginning of data ************************************* 
+0000.10      A*%%TS  SD  20230507  153321  JBLTD1      REL-V7R5M0  5770-WDS     
+0000.20      A*%%EC                                                             
+0000.30      A                                      DSPSIZ(24 80 *DS3)          
+0000.40      A                                      INDARA                      
+0000.50      A          R SCRN1                                                 
+0000.60      A*%%TS  SD  20230507  153321  JBLTD1      REL-V7R5M0  5770-WDS     
+0000.70      A                                  2  3'test:'                     
+0000.80      A            FLD001         3S 0B  2 11VALUES(100 200 300 500 999) 
+0000.90      A  50                                  ERRMSG('pls do not insert   
+0001.00      A  60                                  ERRMSG('wrong  value' 60)   
+0001.10      A                                  2 18'(100, 200, 300)'           
+        ****************** End of data **************************************** 
