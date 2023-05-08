@@ -1,0 +1,19 @@
+ Columns . . . :    6  76           Browse                    JBLTD11/QRPGLESRC 
+ SEU==>                                                                     ABB 
+ FMT FX FFilename++IPEASF.....L.....A.Device+.Keywords+++++++++++++++++++++++++ 
+        *************** Beginning of data ************************************* 
+0001.00 FAAA       CF   E             WORKSTN                                   
+0002.00 C*                                                                      
+0003.00 C                   EXFMT     SCRN1                                     
+0004.00 C     FLD001        DOWNE     999                                       
+0005.00 C     FLD001        IFEQ      500                                       
+0006.00 C                   SETON                                        50     
+0007.00 C                   ELSE                                                
+0007.01 C     FLD001        IFEQ      300                                       
+0008.00 C                   SETON                                        60     
+0009.00 C                   ENDIF                                               
+0009.01 C                   ENDIF                                               
+0010.00 C                   EXFMT     SCRN1                                     
+0011.00 C                   ENDDO                                               
+0012.00 C                   SETON                                        LR     
+        ****************** End of data **************************************** 
